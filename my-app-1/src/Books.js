@@ -7,9 +7,21 @@ const booksQuery = gql `
   books {
     title
     author
+    fantasy
   }
 }
 `
+// Tbc......
+// const booksQuery = gql `
+// {
+//   query books($fantasy: Boolean!) {
+//       books(fantasy: true){
+//         title
+//         author
+//       }
+//   }
+// }
+// `
 export default function Books(){
     return(
         <Query query={booksQuery}>
@@ -18,8 +30,8 @@ export default function Books(){
         if(error) return <p> Something went wrong </p>
         return (
           <ul>
-            {data.books.map(({title,author}) => 
-              <li key={author}>{title}</li>
+            {data.books.map(({title, author, fantasy}) => 
+              <li key={author}>{title} {fantasy ? ", Fantasy book": ""}</li>
             )}
           </ul>
         )

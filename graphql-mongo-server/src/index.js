@@ -5,6 +5,7 @@ const typeDefs = gql`
   type Book {
     title: String
     author: String
+    fantasy: Boolean
   }
 
   # The "Query" type is special: it lists all of the available queries that
@@ -19,18 +20,22 @@ const books = [
     {
       title: 'Harry Potter and the Chamber of Secrets',
       author: 'J.K. Rowling',
+      fantasy: true
     },
     {
       title: 'Jurassic Park',
       author: 'Michael Crichton',
+      fantasy: true
     },
     {
       title: 'Rich Dad, Poor Dad',
       author: 'Jack Doe',
+      fantasy: false
     },
     {
       title: 'The Ruins of the Empire',
       author: 'Akala',
+      fantasy: false
     },
   ];
 // definition and your set of resolvers.
