@@ -24,6 +24,14 @@ const books = [
       title: 'Jurassic Park',
       author: 'Michael Crichton',
     },
+    {
+      title: 'Rich Dad, Poor Dad',
+      author: 'Jack Doe',
+    },
+    {
+      title: 'The Ruins of the Empire',
+      author: 'Akala',
+    },
   ];
 // definition and your set of resolvers.
   const resolvers = {
