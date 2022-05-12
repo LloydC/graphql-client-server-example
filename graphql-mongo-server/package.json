@@ -16,10 +16,10 @@
     "@babel/core": "^7.9.0",
     "@babel/preset-env": "^7.9.5",
     "apollo-server": "^3.0.0",
-    "graphql": "^15.0.0"
+    "graphql": "^16.0.0"
   },
   "devDependencies": {
-    "@babel/cli": "7.17.6",
-    "@babel/core": "7.17.9"
+    "@babel/cli": "7.17.10",
+    "@babel/core": "7.17.10"
   }
 }
