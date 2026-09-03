@@ -12,14 +12,14 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@babel/cli": "^7.8.4",
+    "@babel/cli": "^8.0.0",
     "@babel/core": "^7.9.0",
-    "@babel/preset-env": "^7.9.5",
+    "@babel/preset-env": "^8.0.0",
     "apollo-server": "^3.0.0",
     "graphql": "^16.0.0"
   },
   "devDependencies": {
-    "@babel/cli": "7.19.3",
+    "@babel/cli": "8.0.4",
     "@babel/core": "7.20.5"
   }
 }
